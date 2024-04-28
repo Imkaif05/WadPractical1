@@ -1,0 +1,6 @@
+name - kaif
+std - 3rd
+class - TE
+mobile - realme 
+
+ok byeee
