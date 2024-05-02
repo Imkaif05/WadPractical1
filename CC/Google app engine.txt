@@ -1,0 +1,13 @@
+https://www.npackd.org/p/com.google.A...
+
+download python 2.7
+
+
+edit-preferences
+python path - c drive- python27-pythonw.exe
+app engine sdk - c-proramfiles86-google-google_appengine
+
+create folder on desktop
+
+file-create new application-choose path
+
