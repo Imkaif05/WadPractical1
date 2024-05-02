@@ -1,0 +1,37 @@
+git config --global user.name "Imkaif05"
+git config --global user.email ""
+
+gin clone <link>
+
+git status
+display the status of code
+
+makes chnges in file
+
+git add <filename> : it add in your working directory to thr Git staging area
+
+git commit -m "message" : it is record of change
+
+git push origin main
+
+
+------------------------------------
+
+git init
+
+add files
+
+git add .
+
+git commit -m "add"
+
+make repo in your github acccnt
+
+git remote add origin <link of repo>
+
+git branch
+masster
+
+git branch -M main : chng name to main
+
+git push -u origin main
