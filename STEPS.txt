@@ -1,0 +1,61 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS D:\WAD Assignment> cd .\partA\
+PS D:\WAD Assignment\partA> git statis
+git: 'statis' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+PS D:\WAD Assignment\partA> status
+status : The term 'status' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ status
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (status:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\WAD Assignment\partA> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   file1.txt
+
+PS D:\WAD Assignment\partA> git remote add origin "https://github.com/Imkaif05/WadPractical1.git"
+error: remote origin already exists.
+PS D:\WAD Assignment\partA> git commit -m "firstCommit"
+[master (root-commit) a6161a9] firstCommit
+ 1 file changed, 6 insertions(+)
+ create mode 100644 file1.txt
+PS D:\WAD Assignment\partA> git status
+On branch master
+nothing to commit, working tree clean
+PS D:\WAD Assignment\partA> git push -u origin master
+fatal: unable to access 'https://github.com/Imkaif05/WadPractical1.git/': Could not resolve host: github.com
+PS D:\WAD Assignment\partA> git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\WAD Assignment\partA> git add .
+PS D:\WAD Assignment\partA> git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   file2.txt
+
+PS D:\WAD Assignment\partA> git commit -m "secondCommit"
+[master 685e5d7] secondCommit
+ 1 file changed, 4 insertions(+)
+ create mode 100644 file2.txt
+PS D:\WAD Assignment\partA> git push -u origin master
+fatal: unable to access 'https://github.com/Imkaif05/WadPractical1.git/': Could not resolve host: github.com
+PS D:\WAD Assignment\partA>
